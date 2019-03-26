@@ -28,7 +28,7 @@ The user should have one or more files they would like to upload to the system. 
 
 ![User File Management](UseCaseDiagrams/ufm.png "User File Management Use Case Diagram")
 
-*<center>User File Management Use Case Diagram</center>*
+<center>User File Management Use Case Diagram</center>
 
 ***Created by:*** John Anderson
 
