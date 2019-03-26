@@ -27,7 +27,7 @@ Failed End Condition: If there is no space for any images, or none of the desire
 The user should have one or more files they would like to upload to the system. The desired files should exist on an external storage system connected to the hardware the program is running on. The user will utilize a menu provided by the program to select one or more images or directories to attempt to upload. The program will examine each of the selected files to make sure they are compatible, then compare the total size of the desired files to the remaining reserved storage space. If one or more of the files are not compatible, the program will stop, provide a report, and ask the user they would like to continue; otherwise, the program will continue. If there is not enough reserved storage space, the program will stop and give the user the opportunity to either cancel the upload or narrow down the number of desired images to upload. If the desired process is download, the user will select one or more images on the system they would like to save to a personal storage device. The images will be copied onto the storage medium for the user to access later. If the deletion operation is selected, the chosen files will be removed from the system.
 
 ![User File Management](UseCaseDiagrams/ufm.png "User File Management Use Case Diagram")
-<center>*User File Management Use Case Diagram*</center>
+<center>* User File Management Use Case Diagram *</center>
 
 ***Created by:*** John Anderson
 
