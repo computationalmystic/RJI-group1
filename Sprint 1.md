@@ -26,7 +26,7 @@ Failed End Condition: If there is no space for any images, or none of the desire
 ### Steps of Execution
 The user should have one or more files they would like to upload to the system. The desired files should exist on an external storage system connected to the hardware the program is running on. The user will utilize a menu provided by the program to select one or more images or directories to attempt to upload. The program will examine each of the selected files to make sure they are compatible, then compare the total size of the desired files to the remaining reserved storage space. If one or more of the files are not compatible, the program will stop, provide a report, and ask the user they would like to continue; otherwise, the program will continue. If there is not enough reserved storage space, the program will stop and give the user the opportunity to either cancel the upload or narrow down the number of desired images to upload. If the desired process is download, the user will select one or more images on the system they would like to save to a personal storage device. The images will be copied onto the storage medium for the user to access later. If the deletion operation is selected, the chosen files will be removed from the system.
 
-![User File Management](UseCaseDiagrams/ufm.png)
+![User File Management](UseCaseDiagrams/ufm.png "User File Management Use Case Diagram")
 
 
 ***Created by:*** John Anderson
@@ -61,7 +61,7 @@ Despite the photo they are looking for being in the database, the user could not
 ### Steps of Execution
 User opens up the photo database. User accesses existing collections or user browses photos in database. If user browses photos in database they can choose to sort or search by keyword, name, Color Class Ranking, aesthetic score, or star rating, but if they chose to access existing collections they can choose between viewing uploads by most recent or albums that have been put together. Once the user has narrowed the photos they are viewing they can select one, and then either download it or view it’s information.
 
-![Photo Browser](UseCaseDiagrams/pb.jpg)
+![Photo Browser](UseCaseDiagrams/pb.jpg "Photo Browser Use Case Diagram")
 
 ***Created By:*** Allan Guthrie
 
@@ -100,7 +100,7 @@ User can adjust scores of example images libraries to refine
 3. Optionally, the user can choose to reassess images based on new model.
 4. Once output produced is satisfactory, images and scores are stored in DB.
 
-![Image Assessment](UseCaseDiagrams/ia.jpg)
+![Image Assessment](UseCaseDiagrams/ia.jpg "Image Assessment Use Case Diagram")
 
 ***Created by:*** Chase Alexander
 
@@ -135,7 +135,7 @@ After training model, the new model doesn’t have a better performance than the
 2. After collecting enough photos and rank scores data form users, the administrator can choose the new photos uploaded by users as the train photos and test photos, then train the new version model.
 3. Comparing the result of the two versions model, the administrator will decide if releases new version model.
 
-![Train Model](UseCaseDiagrams/tm.png)
+![Train Model](UseCaseDiagrams/tm.png "Train Model Use Case Diagram")
 
 ***Created By:*** Gavin Lee
 
