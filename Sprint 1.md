@@ -2,6 +2,7 @@
 
 <br />
 
+
 ## User File Management 
 
 **Description:** This Use Case involves a user taking one or more photographs they would like to submit for review and uploading them to the image description database. The database must have enough storage space to accommodate the chosen files, and the chosen files must be pictures. Uploaded pictures will be displayed back to the user prior to rating. Note: this action does not mean the pictures will be graded immediately after, only that they exist on the database to be graded. In addition to upload, users can download images that have been graded to the database management system; the download process has fewer controls than the upload process and must be done with greater caution. Finally, a user can choose to delete files from the database. Our assumption is that this is not a public use system, but is being used by a small amount of users in charge of processing the images, otherwise security controls should be placed on user’s abilities to view, upload, and delete images.
@@ -109,4 +110,3 @@ User can adjust scores of example images libraries to refine
 ***Created By:*** Gavin Lee
 
 ***Reviewed/Edited by:*** Chase Alexander, John Anderson
-
