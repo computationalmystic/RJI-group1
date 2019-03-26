@@ -28,6 +28,8 @@ The user should have one or more files they would like to upload to the system. 
 
 ![User File Management](UseCaseDiagrams/ufm.png)
 
+![GitHub Logo](/UseCaseDiagrams/ufm.png)
+
 ***Created by:*** John Anderson
 
 ***Reviewed/Edited by:*** Chase Alexander, Allan Guthrie, Gavin Lee
