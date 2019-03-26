@@ -77,9 +77,9 @@ User can adjust scores of example images libraries to refine
 
 ![Image Assessment](UseCaseDiagrams/ia.jpg)
 
-**Created by:** Chase Alexander
+***Created by:*** Chase Alexander
 
-**Reviewed/Edited by:** Allan Guthrie, Gavin Lee
+***Reviewed/Edited by:*** Allan Guthrie, Gavin Lee
 
 <br  />
 ## Train Model
@@ -105,7 +105,7 @@ User can adjust scores of example images libraries to refine
 
 ![Train Model](UseCaseDiagrams/tm.png)
 
-**Created By:** Gavin Lee
+***Created By:*** Gavin Lee
 
-**Reviewed/Edited by:** Chase Alexander, John Anderson
+***Reviewed/Edited by:*** Chase Alexander, John Anderson
 
