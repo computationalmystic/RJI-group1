@@ -27,6 +27,7 @@ Failed End Condition: If there is no space for any images, or none of the desire
 
 <br />
 
+
 ## Photo Browser
 
 **Description:** This use case is about what will happen when the user decided to browse photos in the database. They will have the option to view specific collections of photos, or browse the whole database of photos. While browsing the whole database they can search by keyword, star rating, color class ranking, aesthetic score, or name. The user can also sort the photos by the same criteria if they’d like. The user can from there select a photo and either download it, or view information on the photo. This will require a connection to a database of photos (predetermined).
@@ -52,6 +53,7 @@ Failed End Condition: If there is no space for any images, or none of the desire
 ***Reviewed/Edited by:*** Chase Alexander, John Anderson
 
 <br  />
+
 ## Image Assessment
 
 **Description:** In order to ensure that the graded photos constitute the correct aesthetic and technical qualities, and to further train the neural network, the user will need to view the scores outputted by the algorithm and verify that the images with a sufficient score are “correct”. As such, the user will need to validate the scores by either confirming them or changing the respective values as to better match the image. At this point, the user can choose to allow the algorithm to reassess the images according to this new data/metric and output different scores. Consequently this will refine the model, and the images with their scores will be saved in the database as a basis for grading future pictures. Additionally, the user can refine the output by changing the values of the current model to their liking in the form of providing scores for the example image libraries used as a basis for the neural network.
