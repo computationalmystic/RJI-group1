@@ -28,9 +28,7 @@ The user should have one or more files they would like to upload to the system. 
 
 ![User File Management](UseCaseDiagrams/ufm.png)
 
-
 *<center>User File Management Use Case Diagram</center>*
-
 
 ***Created by:*** John Anderson
 
@@ -64,7 +62,9 @@ Despite the photo they are looking for being in the database, the user could not
 ### Steps of Execution
 User opens up the photo database. User accesses existing collections or user browses photos in database. If user browses photos in database they can choose to sort or search by keyword, name, Color Class Ranking, aesthetic score, or star rating, but if they chose to access existing collections they can choose between viewing uploads by most recent or albums that have been put together. Once the user has narrowed the photos they are viewing they can select one, and then either download it or view it’s information.
 
-![Photo Browser](UseCaseDiagrams/pb.jpg "Photo Browser Use Case Diagram")
+![Photo Browser](UseCaseDiagrams/pb.jpg)
+
+*<center>Photo Browser Use Case Diagram</center>*
 
 ***Created By:*** Allan Guthrie
 
@@ -105,6 +105,8 @@ User can adjust scores of example images libraries to refine
 
 ![Image Assessment](UseCaseDiagrams/ia.jpg "Image Assessment Use Case Diagram")
 
+*<center>Image Assessment Use Case Diagram</center>*
+
 ***Created by:*** Chase Alexander
 
 ***Reviewed/Edited by:*** Allan Guthrie, Gavin Lee
@@ -139,6 +141,8 @@ After training model, the new model doesn’t have a better performance than the
 3. Comparing the result of the two versions model, the administrator will decide if releases new version model.
 
 ![Train Model](UseCaseDiagrams/tm.png "Train Model Use Case Diagram")
+
+*<center>Train Model Use Case Diagram</center>*
 
 ***Created By:*** Gavin Lee
 
