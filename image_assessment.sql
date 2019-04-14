@@ -1,11 +1,6 @@
-ALTER TABLE `Images` DROP FOREIGN KEY `fk_Photo_User_1`;
-
-DROP TABLE `Images`;
-DROP TABLE `Users`;
-
 CREATE TABLE `Images` (
 `ImageID` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
-`FilePath` varchar(60) NOT NULL,
+`FilePath` varchar(60) NOT NULL UNIQUE,
 `UploadDate` date NOT NULL,
 `UploaderID` varchar(12) NOT NULL,
 `AestheticScore` float UNSIGNED NULL,
