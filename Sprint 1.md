@@ -21,7 +21,7 @@ Image assessment has begun using one of the example python image assessment libr
 
 3. Photo Browser
 
-![](./UseCaseDiagrams/pb.jpg)
+![](./Sprint1FinalUseCase/pb.png)
 
 The photo browser, like File Management, has not been implemented - however, this will be a much easier task than full File Management. Once File Assessment has been worked on further, we will utilize the website to display uploaded images and their associated rankings.
 
