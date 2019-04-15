@@ -6,15 +6,21 @@
 
 ## Functional Requirements
 
-1. Use Case Name A
-	- Functional Requirement 1
-	- Functional Requirement 2
-	- ... etc.
-2. Use Case Name B		
-	- Functional Requirement 1
-	- Functional Requirement 2
-	- ... etc.
-3. ... etc. 
+1. User File Management
+
+User File Management has not been implemented into an interface as of right now. Currently, files are stored and manipulated on the file system via SQL (a more efficient method of manipulation for photographs over 1MB in size), but manipulation via the website has not been managed. Instead, file manipulation is only possible through uploads via the website, and through manually changing file names and locations with SSH.
+
+2. Image Assessment	
+
+Image assessment has begun using one of the example python image assessment libraries provided. This has given us a good jumping off point, both for a reference point when it comes to a more complex image assessment algorithm later on, and allowing us to test and get a feel for how this implementation will operate within a server. Currently, we project a change with when image assessment will occur - we plan to have images be assessed as they are uploaded, instead of having to separately initiate uploading and assessment.
+
+3. Photo Browser
+
+The photo browser, like File Management, has not been implemented - however, this will be a much easier task than full File Management. Once File Assessment has been worked on further, we will utilize the website to display uploaded images and their associated rankings.
+
+4. Train Model
+
+Currently, the Train Model portion of the project is the already-implemented library, expounded upon in Image Assessment. As a result, training has not occurred yet. When training is implemented, we will not have one singular ‘trained’ model, but will train multiple models based on the images classification - Football, Crowd, etc. As a result, image assessment will occur in two layers - classification, to associate an image with its best-suited model, and actual assessment, to provide a rating based on images in the same category.
 
 ## Database Design
 
