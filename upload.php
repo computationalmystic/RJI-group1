@@ -1,19 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "CS4320";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-echo "Connected successfully";
-
 $target_dir = "/home/ubuntu/photos/users/";
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+$filename = basename($_FILES["fileToUpload"]["name"]);
+$target_file = $target_dir . $filename;
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 // Check if image file is a actual image or fake image
@@ -33,7 +21,7 @@ if (file_exists($target_file)) {
     $uploadOk = 0;
 }
 // Check file size
-if ($_FILES["fileToUpload"]["size"] > 500000) {
+if ($_FILES["fileToUpload"]["size"] > 100000000) {
     echo "Sorry, your file is too large.";
     $uploadOk = 0;
 }
@@ -49,7 +37,31 @@ if ($uploadOk == 0) {
 } 
 else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
-        echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
+        
+        $servername = "localhost";
+        $username = "root";
+        $password = "CS4320";
+        $db = "image_assessment_schema";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $db);
+
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        } 
+        echo "Connected successfully";
+        
+        echo "The file has been uploaded.";
+		$technical = exec("bash ./getScoreTechnical.sh $filename");
+        echo "technical ". $technical . ". ";
+    
+		$aesthetic = exec("bash ./getScoreAesthetic.sh $filename");
+        echo "aesthetic ". $aesthetic . ". ";
+        
+        mysqli_query($conn,"INSERT INTO Images (FilePath,UploadDate,UploaderID,AestheticScore,TechnicalScore) VALUES ('$filename',curdate(),'joebob22','$aesthetic','$technical')");
+        
+        mysqli_close($conn);
     } else {
         echo "Sorry, there was an error uploading your file.";
     }
