@@ -89,6 +89,11 @@ Our current implementation is utilizing Amazon AWS for the image assessment and 
 
 [Image Upload](./upload.php)
 
+[Aesthetic Score](./getScoreAesthetic.sh)
+
+[Technical Score](./getScoreAesthetic.sh)
+
+
 
 ## Describe languages you need to use, and any gaps in skills on your team. 
 
