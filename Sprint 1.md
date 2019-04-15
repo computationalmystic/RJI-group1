@@ -15,7 +15,7 @@ User File Management has not been implemented into an interface as of right now.
 
 2. Image Assessment	
 
-![](./sprint 1 final use case diagrams/ia.png)
+![](./sprint 1 final use case diagrams/ia.jpg)
 
 Image assessment has begun using one of the example python image assessment libraries provided. This has given us a good jumping off point, both for a reference point when it comes to a more complex image assessment algorithm later on, and allowing us to test and get a feel for how this implementation will operate within a server. Currently, we project a change with when image assessment will occur - we plan to have images be assessed as they are uploaded, instead of having to separately initiate uploading and assessment.
 
