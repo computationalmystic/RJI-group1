@@ -35,7 +35,7 @@ Current Implementation:
 
 Our current implementation is utilizing Amazon AWS for the image assessment and storage library. Currently, we have implemented a basic website that allows for users to upload images. In addition, we have set up an image assessment library and seeded it with dummy data to test its capabilities. We have also implemented a basic database schema, and have stored our files using the Filestream functionality SQL has. 
 
-![](./sprint 1 final use case diagrams/Sprint 1 final.png)
+![](./Sprint1FinalUseCase/overview.png)
 
 
 ## Database Design
