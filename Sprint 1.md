@@ -91,7 +91,7 @@ Our current implementation is utilizing Amazon AWS for the image assessment and 
 
 [Aesthetic Score](./getScoreAesthetic.sh)
 
-[Technical Score](./getScoreAesthetic.sh)
+[Technical Score](./getScoreTechnical.sh)
 
 
 
