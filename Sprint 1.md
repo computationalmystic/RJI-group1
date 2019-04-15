@@ -27,7 +27,7 @@ The photo browser, like File Management, has not been implemented - however, thi
 
 4. Train Model
 
-![](./UseCaseDiagrams/tm.png)
+![](./Sprint1FinalUseCase/tm.png)
 
 Currently, the Train Model portion of the project is the already-implemented library, expounded upon in Image Assessment. As a result, training has not occurred yet. When training is implemented, we will not have one singular ‘trained’ model, but will train multiple models based on the images classification - Football, Crowd, etc. As a result, image assessment will occur in two layers - classification, to associate an image with its best-suited model, and actual assessment, to provide a rating based on images in the same category.
 
