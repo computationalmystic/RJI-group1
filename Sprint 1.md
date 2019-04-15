@@ -6,30 +6,15 @@
 
 ## Functional Requirements
 
-1.	User File Management
-
-User File Management has not been fully implemented as of right now. Currently, files are stored and manipulated on the file system via SQL (a more efficient method of manipulation for photographs over 1MB in size), but manipulation via the website has not been managed. Instead, file manipulation is only possible through uploads via the website, and through manually changing file names and locations with SSH.
-
-
-
-2. Image Assessment
-
-Image assessment has begun using one of the example python image assessment libraries provided. This has given us a good jumping off point, both for a reference point when it comes to a more complex image assessment algorithm later on, and allowing us to test and get a feel for how this implementation will operate within a server. Currently, we project a change with when image assessment will occur - we plan to have images be assessed as they are uploaded, instead of having to separately initiate uploading and assessment.
-
-
-3. Photo Browser
-
-The photo browser has not yet been implemented - however, this will be a much easier task than full File Management. Once File Assessment has been worked on further, we will utilize the website to display uploaded images and their associated rankings.
-
-4. Train Model
-
-Currently, the Train Model portion of the project is the already-implemented library, expounded upon in Image Assessment. As a result, training has not occurred yet. When training is implemented, we will not have one singular ‘trained’ model, but will train multiple models based on the images classification - Football, Crowd, etc. As a result, image assessment will occur in two layers - classification, to associate an image with its best-suited model, and actual assessment, to provide a rating based on images in the same category.
-
-Current Implementation:
-
-Our current implementation is utilizing Amazon AWS for the image assessment and storage library. Currently, we have implemented a basic website that allows for users to upload images. In addition, we have set up an image assessment library and seeded it with dummy data to test its capabilities. We have also implemented a basic database schema, and have stored our files using the Filestream functionality SQL has. 
-
- 
+1. Use Case Name A
+	- Functional Requirement 1
+	- Functional Requirement 2
+	- ... etc.
+2. Use Case Name B		
+	- Functional Requirement 1
+	- Functional Requirement 2
+	- ... etc.
+3. ... etc. 
 
 ## Database Design
 
@@ -66,32 +51,34 @@ Our current implementation is utilizing Amazon AWS for the image assessment and 
 
 ### User Interface Files
 
-1. first one
-2. second one
-3. etc.
+[Main Interface](./index.html)
 
 
 ### Model Files (Database Access)
 
-1. first one
-2. second one
-3. etc
+[Model](https://github.com/computationalmystic/RJI-group1/tree/model) 
+
+[SQL](./image_assessment_schema.sql)
+
 
 
 ### Controller Files (API or other)
 
-1. first one 
-2. second one
-3. etc. 
+[Image Upload](./upload.php)
+
 
 ## Describe languages you need to use, and any gaps in skills on your team. 
 
-1. first language 
-    - how you will use examples or learn what you need
-2. second language 
-    - how you will use examples or learn what you need
-3. Skill gaps, if any, otherwise specify who is doing what
-    - name
-    - name
-    - skill gap 
+1. Python
+    - used with docker as a framework for machine learning based image assessment
+2. PHP/CSS/HTML 
+    - used as user interface and to communicate with database using mySQL
+3. SQL
+    - main DDL used to store image data with scores as well as user data
+    
+4. Language Proficiency
+    - Gavin: work with python and docker
+    - Chase: database definition, PHP
+    - Allan: help with database
+    - John: help with docker
 
