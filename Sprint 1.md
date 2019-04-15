@@ -9,13 +9,13 @@
 
 1. User File Management
 
-![](./UseCaseDiagrams/ufm.png)
+![](./sprint 1 final use case diagrams/ufm.png)
 
 User File Management has not been implemented into an interface as of right now. Currently, files are stored and manipulated on the file system via SQL (a more efficient method of manipulation for photographs over 1MB in size), but manipulation via the website has not been managed. Instead, file manipulation is only possible through uploads via the website, and through manually changing file names and locations with SSH.
 
 2. Image Assessment	
 
-![](./UseCaseDiagrams/ia.jpg)
+![](./sprint 1 final use case diagrams/ia.png)
 
 Image assessment has begun using one of the example python image assessment libraries provided. This has given us a good jumping off point, both for a reference point when it comes to a more complex image assessment algorithm later on, and allowing us to test and get a feel for how this implementation will operate within a server. Currently, we project a change with when image assessment will occur - we plan to have images be assessed as they are uploaded, instead of having to separately initiate uploading and assessment.
 
@@ -30,6 +30,13 @@ The photo browser, like File Management, has not been implemented - however, thi
 ![](./UseCaseDiagrams/tm.png)
 
 Currently, the Train Model portion of the project is the already-implemented library, expounded upon in Image Assessment. As a result, training has not occurred yet. When training is implemented, we will not have one singular ‘trained’ model, but will train multiple models based on the images classification - Football, Crowd, etc. As a result, image assessment will occur in two layers - classification, to associate an image with its best-suited model, and actual assessment, to provide a rating based on images in the same category.
+
+Current Implementation:
+
+Our current implementation is utilizing Amazon AWS for the image assessment and storage library. Currently, we have implemented a basic website that allows for users to upload images. In addition, we have set up an image assessment library and seeded it with dummy data to test its capabilities. We have also implemented a basic database schema, and have stored our files using the Filestream functionality SQL has. 
+
+![](./sprint 1 final use case diagrams/Sprint 1 final.png)
+
 
 ## Database Design
 
