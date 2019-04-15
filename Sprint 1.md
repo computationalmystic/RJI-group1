@@ -1,8 +1,8 @@
-# Sprint 1 Design Document Template
+# Sprint 1 Design Document 
 
 ## Deployment Environment
 
-[Link to your deployment environment](http://rji.glike.cf)
+[Deployment environment](http://rji.glike.cf)
 
 ## Functional Requirements
 
