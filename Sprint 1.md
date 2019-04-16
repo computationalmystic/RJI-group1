@@ -11,29 +11,40 @@
 
 ![](./Sprint1FinalUseCase/ufm.png)
 
-User File Management has not been implemented into an interface as of right now. Currently, files are stored and manipulated on the file system via SQL (a more efficient method of manipulation for photographs over 1MB in size), but manipulation via the website has not been managed. Instead, file manipulation is only possible through uploads via the website, and through manually changing file names and locations with SSH.
+--(disclaimer)The User File Management interface has not been fully implemented yet
+--Files are currently stored and manipulated through a server using SQL queries implemented in PHP
+--Users do not currently have the ability to directly manipulate files
 
 2. Image Assessment	
 
 ![](./Sprint1FinalUseCase/ia.jpg)
 
-Image assessment has begun using one of the example python image assessment libraries provided. This has given us a good jumping off point, both for a reference point when it comes to a more complex image assessment algorithm later on, and allowing us to test and get a feel for how this implementation will operate within a server. Currently, we project a change with when image assessment will occur - we plan to have images be assessed as they are uploaded, instead of having to separately initiate uploading and assessment.
+--Using docker as a base
+--Images are scored on upload
+--The scores tracked with the image name (along with other attributes
 
 3. Photo Browser
 
 ![](./Sprint1FinalUseCase/pb.png)
 
-The photo browser, like File Management, has not been implemented - however, this will be a much easier task than full File Management. Once File Assessment has been worked on further, we will utilize the website to display uploaded images and their associated rankings.
+--(Disclaimer) Has not yet been implemented
+--Image file information is stored in the database and will eventually be options to be used for sorting/searching
+--Image attributes are: TechnicalScore, AestheticScore, UploaderID, ImageID, FilePath, and UploadDate
 
 4. Train Model
 
 ![](./Sprint1FinalUseCase/tm.png)
 
-Currently, the Train Model portion of the project is the already-implemented library, expounded upon in Image Assessment. As a result, training has not occurred yet. When training is implemented, we will not have one singular ‘trained’ model, but will train multiple models based on the images classification - Football, Crowd, etc. As a result, image assessment will occur in two layers - classification, to associate an image with its best-suited model, and actual assessment, to provide a rating based on images in the same category.
+--(Disclaimer) Not fully implemented yet
+--Using docker as a base
+--Seeded with dummy data for testing
+--Plans to eventually train assessment algorithm to rank differently depending on category
 
 Current Implementation:
 
-Our current implementation is utilizing Amazon AWS for the image assessment and storage library. Currently, we have implemented a basic website that allows for users to upload images. In addition, we have set up an image assessment library and seeded it with dummy data to test its capabilities. We have also implemented a basic database schema, and have stored our files using the Filestream functionality SQL has. 
+--Implementation is utilizing Amazon AWS for limited interface and storage library
+--Set up an image assessment library and seeded it with dummy data to test its capabilities
+--Implemented a basic database schema, and have stored our files using the Filestream functionality SQL has. 
 
 ![](./Sprint1FinalUseCase/overview.png)
 
