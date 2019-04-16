@@ -19,32 +19,32 @@
 
 ![](./Sprint1FinalUseCase/ia.jpg)
 
---Using docker as a base
---Images are scored on upload
---The scores tracked with the image name (along with other attributes
+- Using docker as a base
+- Images are scored on upload
+- The scores tracked with the image name (along with other attributes
 
 3. Photo Browser
 
 ![](./Sprint1FinalUseCase/pb.png)
 
---(Disclaimer) Has not yet been implemented
---Image file information is stored in the database and will eventually be options to be used for sorting/searching
---Image attributes are: TechnicalScore, AestheticScore, UploaderID, ImageID, FilePath, and UploadDate
+- (Disclaimer) Has not yet been implemented
+- Image file information is stored in the database and will eventually be options to be used for sorting/searching
+- Image attributes are: TechnicalScore, AestheticScore, UploaderID, ImageID, FilePath, and UploadDate
 
 4. Train Model
 
 ![](./Sprint1FinalUseCase/tm.png)
 
---(Disclaimer) Not fully implemented yet
---Using docker as a base
---Seeded with dummy data for testing
---Plans to eventually train assessment algorithm to rank differently depending on category
+- (Disclaimer) Not fully implemented yet
+- Using docker as a base
+- Seeded with dummy data for testing
+- Plans to eventually train assessment algorithm to rank differently depending on category
 
 Current Implementation:
 
---Implementation is utilizing Amazon AWS for limited interface and storage library
---Set up an image assessment library and seeded it with dummy data to test its capabilities
---Implemented a basic database schema, and have stored our files using the Filestream functionality SQL has. 
+- Implementation is utilizing Amazon AWS for limited interface and storage library
+- Set up an image assessment library and seeded it with dummy data to test its capabilities
+- Implemented a basic database schema, and have stored our files using the Filestream functionality SQL has. 
 
 ![](./Sprint1FinalUseCase/overview.png)
 
