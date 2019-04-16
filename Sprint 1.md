@@ -11,9 +11,9 @@
 
 ![](./Sprint1FinalUseCase/ufm.png)
 
---(disclaimer)The User File Management interface has not been fully implemented yet
---Files are currently stored and manipulated through a server using SQL queries implemented in PHP
---Users do not currently have the ability to directly manipulate files
+- (disclaimer)The User File Management interface has not been fully implemented yet
+- Files are currently stored and manipulated through a server using SQL queries implemented in PHP
+- Users do not currently have the ability to directly manipulate files
 
 2. Image Assessment	
 
