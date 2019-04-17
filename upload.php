@@ -62,6 +62,8 @@ else {
         mysqli_query($conn,"INSERT INTO Images (FilePath,UploadDate,UploaderID,AestheticScore,TechnicalScore) VALUES ('$filename',curdate(),'joebob22','$aesthetic','$technical')");
         
         mysqli_close($conn);
+	    
+	echo "It seems that good images are rated at about 5.0+ in both metrics, while bad images are rated less than ~4.3. There will be some calibration needed to find what images are desirable that do not fall within those ranges.";
     } else {
         echo "Sorry, there was an error uploading your file.";
     }
