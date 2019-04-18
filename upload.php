@@ -81,24 +81,37 @@ for( $i=0 ; $i < $total ; $i++ ) {
             
                 
                 // Using API to replace EXEC function (need to fix)
+                
+                //$technical = exec("bash ./getScoreTechnical.sh $filename");
+                //echo "technical ". $technical . " / 10. ";
+        
+                //$aesthetic = exec("bash ./getScoreAesthetic.sh $filename");
+                //echo "aesthetic ". $aesthetic . " / 10. ";
+                //echo $filename;
+				//echo "==========================================================================\n";
 				
-				$technical=="";
-		        while(!preg_match('/[0-9]/', $technical)) {
+				$technical2="";
+		        while(!preg_match('/[0-9]/', $technical2)) {
+				  //echo $filename;
+				  sleep(1);
                   $file_contents1=file_get_contents('http://localhost:8000/getScoreTechnicalAPI?NAME='.$filename);
                   $technical2= substr($file_contents1,-5,-1);
                 } 
-                echo "technical ". $technical . " / 10. ";
-		
-		        $aesthetic=="";
-		        while(!preg_match('/[0-9]/', $aesthetic)) {
-                  $file_contents=file_get_contents('http://localhost:8000/getScoreAestheticAPI?NAME='.$filename);
+                echo "technical ". $technical2 . " / 10. ";
+
+				$aesthetic2="";
+                while(!preg_match('/[0-9]/', $aesthetic2)) {
+				  //echo $filename;
+				  sleep(1);
+                  $file_contents2=file_get_contents('http://localhost:8000/getScoreAestheticAPI?NAME='.$filename);
                   $aesthetic2= substr($file_contents2,-5,-1);
-                } 
-                echo "aesthetic ". $aesthetic . " / 10. ";
-				
+                }
+                echo "aesthetic ". $aesthetic2 . " / 10. \n";			
+				echo "==========================================================================\n";
+        
         
                 // Add image and scores to database
-                mysqli_query($conn,"INSERT INTO Images (FilePath,UploadDate,UploaderID,AestheticScore,TechnicalScore) VALUES ('$filename',curdate(),'joebob22','$aesthetic','$technical')");
+                mysqli_query($conn,"INSERT INTO Images (FilePath,UploadDate,UploaderID,AestheticScore,TechnicalScore) VALUES ('$filename',curdate(),'joebob22','$aesthetic2','$technical2')");
             }
             else {
                 echo "Sorry, there was an error uploading your file. ";
