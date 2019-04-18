@@ -81,21 +81,21 @@ for( $i=0 ; $i < $total ; $i++ ) {
             
                 
                 // Using API to replace EXEC function (need to fix)
-                
-                $technical = exec("bash ./getScoreTechnical.sh $filename");
+				
+				$technical=="";
+		        while(!preg_match('/[0-9]/', $technical)) {
+                  $file_contents1=file_get_contents('http://localhost:8000/getScoreTechnicalAPI?NAME='.$filename);
+                  $technical2= substr($file_contents1,-5,-1);
+                } 
                 echo "technical ". $technical . " / 10. ";
-                
-                //$file_contents1=file_get_contents('http://localhost:8000/getScoreTechnicalAPI?NAME='.$filename);
-                //$technical2= substr($file_contents1,-5,-1);
-                //echo "technical ". $technical2 . " / 10. ";
-        
-                $aesthetic = exec("bash ./getScoreAesthetic.sh $filename");
-                echo "technical ". $aesthetic . " / 10. ";
-                
-                //$file_contents2=file_get_contents('http://localhost:8000/getScoreAestheticAPI?NAME='.$filename);
-                //$aesthetic2= substr($file_contents2,-5,-1);
-                //echo "aesthetic ". $aesthetic2 . " / 10. ";
-        
+		
+		        $aesthetic=="";
+		        while(!preg_match('/[0-9]/', $aesthetic)) {
+                  $file_contents=file_get_contents('http://localhost:8000/getScoreAestheticAPI?NAME='.$filename);
+                  $aesthetic2= substr($file_contents2,-5,-1);
+                } 
+                echo "aesthetic ". $aesthetic . " / 10. ";
+				
         
                 // Add image and scores to database
                 mysqli_query($conn,"INSERT INTO Images (FilePath,UploadDate,UploaderID,AestheticScore,TechnicalScore) VALUES ('$filename',curdate(),'joebob22','$aesthetic','$technical')");

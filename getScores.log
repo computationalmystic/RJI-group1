@@ -1,0 +1,304 @@
+2019/04/18 00:01:42 INFO ▶ Serve from port 8000 with 5 seconds timeout[0m
+2019/04/18 00:01:42 INFO ▶ Handle /getScoreAestheticAPI -> getScoreAestheticAPI.sh[0m
+2019/04/18 00:01:42 INFO ▶ Handle /getScoreTechnicalAPI -> getScoreTechnicalAPI.sh[0m
+2019/04/18 00:01:56 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:02:01 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:02:01 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:02:06 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:04:39 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:04:44 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:04:44 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:04:48 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.738038s[0m
+2019/04/18 00:04:48 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:04:52 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.678705s[0m
+2019/04/18 00:05:23 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:05:27 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.674938s[0m
+2019/04/18 00:05:27 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:05:31 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.775049s[0m
+2019/04/18 00:05:31 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:05:35 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.591243s[0m
+2019/04/18 00:05:35 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:05:39 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.698913s[0m
+2019/04/18 00:07:08 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:07:13 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.719505s[0m
+2019/04/18 00:07:13 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:07:17 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.665884s[0m
+2019/04/18 00:07:17 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:07:21 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.667694s[0m
+2019/04/18 00:07:31 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:07:35 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.632106s[0m
+2019/04/18 00:07:35 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:07:39 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.680999s[0m
+2019/04/18 00:07:39 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:07:43 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.632223s[0m
+2019/04/18 00:07:43 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:07:47 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.684205s[0m
+2019/04/18 00:14:19 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:14:24 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:14:24 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:14:29 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:14:29 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:14:34 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:14:34 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:14:39 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.655922s[0m
+2019/04/18 00:14:39 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:14:43 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.679268s[0m
+2019/04/18 00:14:43 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:14:47 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.632911s[0m
+2019/04/18 00:14:47 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:14:51 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.672462s[0m
+2019/04/18 00:14:51 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:14:55 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.658552s[0m
+2019/04/18 00:15:48 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:15:53 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:15:53 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:15:58 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:15:58 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:16:03 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.687248s[0m
+2019/04/18 00:16:03 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:16:08 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.715568s[0m
+2019/04/18 00:16:08 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:16:12 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.666634s[0m
+2019/04/18 00:16:12 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:16:17 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.632558s[0m
+2019/04/18 00:16:17 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:16:21 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.703479s[0m
+2019/04/18 00:19:47 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:19:51 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.65088s[0m
+2019/04/18 00:19:51 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:19:56 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:19:56 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:20:01 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:20:01 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:20:06 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.699999s[0m
+2019/04/18 00:20:06 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:20:11 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.767663s[0m
+2019/04/18 00:20:11 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:20:15 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.65089s[0m
+2019/04/18 00:20:15 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:20:20 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.657089s[0m
+2019/04/18 00:20:20 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:20:24 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.648358s[0m
+2019/04/18 00:20:24 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:20:29 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.616427s[0m
+2019/04/18 00:38:33 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:38:38 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:38:38 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:38:44 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:38:44 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:38:49 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:38:49 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:38:54 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:38:54 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:38:58 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.674853s[0m
+2019/04/18 00:40:31 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:40:36 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:40:42 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:40:47 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:40:51 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:40:56 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:41:04 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:41:09 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:41:11 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:41:15 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.632587s[0m
+2019/04/18 00:41:17 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:41:22 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:41:26 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:41:31 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.659424s[0m
+2019/04/18 00:41:35 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:41:40 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:41:52 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:41:57 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:41:57 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:42:02 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:42:16 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:42:21 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:42:21 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:42:26 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.65107s[0m
+2019/04/18 00:44:03 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_370.JPG[0m
+2019/04/18 00:44:08 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:44:08 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_370.JPG[0m
+2019/04/18 00:44:13 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:44:13 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_370.JPG[0m
+2019/04/18 00:44:18 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:44:18 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_370.JPG[0m
+2019/04/18 00:44:23 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:44:23 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_370.JPG[0m
+2019/04/18 00:44:28 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:44:28 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_370.JPG[0m
+2019/04/18 00:44:33 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.637827s[0m
+2019/04/18 00:44:33 INFO ▶ GET /getScoreAestheticAPI?NAME=20170909_MizzouSouthCarolina_MP_370.JPG[0m
+2019/04/18 00:44:38 [36mDEBUG ▶ Executed getScoreAestheticAPI.sh without error in 2.737159s[0m
+2019/04/18 00:44:43 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:44:48 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:44:48 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:44:53 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:44:53 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_061.JPG[0m
+2019/04/18 00:44:58 [36mDEBUG ▶ Executed getScoreTechnicalAPI.sh without error in 2.690161s[0m
+2019/04/18 00:54:38 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 00:54:43 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:54:43 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 00:54:48 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:54:48 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 00:54:53 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:54:53 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 00:54:58 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:54:58 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 00:55:03 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:55:03 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 00:55:08 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:55:08 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 00:55:13 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:55:13 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 00:55:18 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:55:18 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 00:55:19 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 00:55:23 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:55:24 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 00:55:56 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:56:11 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:56:11 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 00:56:11 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 00:56:16 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:56:16 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:56:16 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 00:56:16 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 00:57:22 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 00:57:25 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:05:14 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:07:12 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:17:20 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:17:20 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:17:20 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:17:20 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:17:21 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:17:21 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:17:39 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:17:39 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:17:39 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:17:39 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:17:39 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:17:39 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:17:39 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:17:39 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:17:39 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:17:39 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:17:44 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:17:44 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:17:45 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:17:45 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:18:14 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:18:23 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:23:41 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:23:41 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:23:41 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:23:41 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:23:47 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:23:47 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:23:47 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:23:47 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:24:08 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:24:11 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:25:33 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:26:03 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:27:46 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:27:46 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:27:54 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:27:54 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:27:55 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:27:55 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:28:39 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:28:39 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:28:42 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:28:42 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:29:27 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:29:27 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:31:13 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:31:23 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:41:47 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:45:37 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:45:37 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:45:37 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:45:37 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:45:53 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:45:53 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:45:53 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:45:53 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:45:53 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:45:53 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 01:45:53 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 01:53:09 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:53:59 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:54:00 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:54:36 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:55:03 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:56:07 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:56:52 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:57:13 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 01:57:17 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 02:00:20 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 02:00:20 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 02:00:20 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 02:00:22 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 02:00:22 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 02:00:22 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 02:00:22 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 02:00:22 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 02:00:22 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 02:00:38 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 02:00:39 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 02:03:20 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 02:03:20 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 02:03:20 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 02:03:21 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 02:26:18 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 02:30:29 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 02:27:04 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 02:28:46 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 02:39:12 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 02:32:17 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 02:32:42 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 02:49:34 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 02:52:19 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 03:29:56 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 03:37:40 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 03:45:02 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 03:45:35 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 03:46:56 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 03:50:55 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 03:51:00 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 03:51:01 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 03:51:00 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 03:51:01 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 03:51:02 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 03:51:21 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 03:52:08 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 03:53:16 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 03:53:31 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 03:53:32 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 04:05:02 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 04:05:08 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 04:13:43 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 05:10:23 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 05:09:03 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 05:29:45 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 05:57:14 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 06:00:15 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 06:10:42 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 06:25:54 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 07:07:27 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 07:27:47 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 07:47:11 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 08:22:22 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 08:22:42 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 08:24:12 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 08:24:12 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 08:29:12 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 08:29:12 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 08:29:12 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 08:29:12 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 08:29:12 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 08:45:07 [36mDEBUG ▶ Process getScoreTechnicalAPI.sh killed[0m
+2019/04/18 08:45:07 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
+2019/04/18 08:45:07 INFO ▶ GET /getScoreTechnicalAPI?NAME=20170909_MizzouSouthCarolina_MP_064.JPG[0m
+2019/04/18 08:45:07 INFO ▶ GET /getScoreTechnicalAPI?NAME=fgoodtest2.jpeg[0m
