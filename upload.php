@@ -13,9 +13,9 @@ $conn = new mysqli($servername, $username, $password, $db);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-echo "mySQL connected successfully. ";
-
-
+echo "mySQL connected successfully.";
+echo "<br/>";
+echo "<br/>";
 
 //$files = array_filter($_FILES['filesToUpload']['name']); 
 $total = count($_FILES['filesToUpload']['name']);
@@ -24,7 +24,8 @@ $target_dir = "/home/ubuntu/photos/users/";
 
 // Loop through each file
 for( $i=0 ; $i < $total ; $i++ ) {
-
+    echo "<br/>";
+    
     // Get the temp file path
     $tmpFilePath = $_FILES['filesToUpload']['tmp_name'][$i];
 
@@ -58,10 +59,10 @@ for( $i=0 ; $i < $total ; $i++ ) {
         }
         
         // Check file size
-        //if ($_FILES["filesToUpload"]["size"] > 100000000) {
-        //    echo "Sorry, your file is too large. ";
-        //    $uploadOk = 0;
-        //}
+        if ($_FILES["filesToUpload"]["size"][$i] > 100000000) {
+            echo "Sorry, your file is too large. ";
+            $uploadOk = 0;
+        }
         
         // Allow certain file formats
         if ($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg" && $imageFileType != "gif" ) {
@@ -71,47 +72,26 @@ for( $i=0 ; $i < $total ; $i++ ) {
 
         // Check if $uploadOk is set to 0 by an error
         if ($uploadOk == 0) {
-            echo "Sorry, your file was not uploaded.";
+            echo "Sorry, your file was not uploaded. ";
         } 
         
         // Upload the file into the temp dir
         else {
             if (move_uploaded_file($tmpFilePath, $newFilePath)) {
-                echo "The file has been uploaded.";
-            
+                echo "The file has been uploaded. ";
                 
-                // Using API to replace EXEC function (need to fix)
                 
-                //$technical = exec("bash ./getScoreTechnical.sh $filename");
-                //echo "technical ". $technical . " / 10. ";
+                $technical = shell_exec("bash ./getScoreTechnical.sh $filename");
+                $technical = substr($technical,-7,-3);
+				echo "technical ". $technical . " / 10. ";
         
-                //$aesthetic = exec("bash ./getScoreAesthetic.sh $filename");
-                //echo "aesthetic ". $aesthetic . " / 10. ";
-                //echo $filename;
-				//echo "==========================================================================\n";
-				
-				$technical2="";
-		        while(!preg_match('/[0-9]/', $technical2)) {
-				  //echo $filename;
-				  sleep(1);
-                  $file_contents1=file_get_contents('http://localhost:8000/getScoreTechnicalAPI?NAME='.$filename);
-                  $technical2= substr($file_contents1,-5,-1);
-                } 
-                echo "technical ". $technical2 . " / 10. ";
+                $aesthetic = shell_exec("bash ./getScoreAesthetic.sh $filename");
+				$aesthetic = substr($aesthetic,-7,-3);
+                echo "aesthetic ". $aesthetic . " / 10. ";
+                
+                
+                mysqli_query($conn,"INSERT INTO Images (FilePath,UploadDate,UploaderID,AestheticScore,TechnicalScore) VALUES ('$filename',curdate(),'joebob22','$aesthetic','$technical')");
 
-				$aesthetic2="";
-                while(!preg_match('/[0-9]/', $aesthetic2)) {
-				  //echo $filename;
-				  sleep(1);
-                  $file_contents2=file_get_contents('http://localhost:8000/getScoreAestheticAPI?NAME='.$filename);
-                  $aesthetic2= substr($file_contents2,-5,-1);
-                }
-                echo "aesthetic ". $aesthetic2 . " / 10. \n";			
-				echo "==========================================================================\n";
-        
-        
-                // Add image and scores to database
-                mysqli_query($conn,"INSERT INTO Images (FilePath,UploadDate,UploaderID,AestheticScore,TechnicalScore) VALUES ('$filename',curdate(),'joebob22','$aesthetic2','$technical2')");
             }
             else {
                 echo "Sorry, there was an error uploading your file. ";
@@ -121,7 +101,8 @@ for( $i=0 ; $i < $total ; $i++ ) {
 }
 
 
-
+echo "<br/>";
+echo "<br/>";
 echo "It seems that good images are rated at about 5.0+ in both metrics, while bad images are rated less than ~4.3. There will be some calibration needed to find what images are desirable that do not fall within those ranges.";
 
 // Close mySQL connection
