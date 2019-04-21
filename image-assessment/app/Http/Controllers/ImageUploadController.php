@@ -38,21 +38,39 @@ class ImageUploadController extends Controller
 
         if($request->hasfile('filename'))
         {
+
+		$result=DB::table('Images')
+			->orderBy('ImageID', 'desc')
+			->select('ImageID')
+			->limit(1)
+			->get();
+
+
+		$currentID = 1;
+
+		if (!$result->isEmpty()) {
+			$result = json_decode($result,true);
+			$currentID = ++$result[0]['ImageID'];
+		}
+
+		\Log::info($currentID);
+
+
         	foreach($request->file('filename') as $image)
             	{
 
 			$name=$image->getClientOriginalName();
 			$path=public_path().'/images/';
 
+			$image->move($path, str_pad($currentID, 10, '0', STR_PAD_LEFT).'-'.$name);
 
-			if (!File::exists($path.$name)) {
-				$image->move($path, $name);
- 
-				DB::insert("insert into Images (FilePath,UploadDate,UploaderID,AestheticScore,TechnicalScore) values ('$name', curdate(), 'joebob22', 1.00, 1.00)");
-            		}
+			DB::insert("insert into Images (FilePath,UploadDate,UploaderID,AestheticScore,TechnicalScore) values ('$name', curdate(), 'joebob22', 1.00, 1.00)");
+			$currentID++;
 		}
          }
+
      	 return back()->with('success', 'Your images have been successfully uploaded.');
     }
 
 }
+
