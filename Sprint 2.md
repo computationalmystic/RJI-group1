@@ -30,7 +30,7 @@
 
 ### 3. Photo Browser
 
-![](https://github.com/computationalmystic/RJI-group1/blob/master/Sprint1FinalUseCase/pb.png)
+![](https://github.com/computationalmystic/RJI-group1/blob/master/UseCaseDiagrams/Photo%20Browser.png)
 
 
 ### 4. Train Model
