@@ -58,7 +58,7 @@ b.	**Laravel**
 ### To Do:
 - Implement submission progress bar for uploads
 - Assessment needs to be implemented using Symfony
-- Potentially customize assessment to different categories
+- Potentially customize/train assessment model to assess specific categories differently
 - Send notification to users once assessment complete
 - Optimize file system for large number of files
 - Need to add login interface and database queries
