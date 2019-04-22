@@ -20,21 +20,21 @@
 
 ### 1. User File Management
 
-![](https://github.com/computationalmystic/RJI-group1/blob/master/Sprint1FinalUseCase/ufm.png)
+![](https://github.com/computationalmystic/RJI-group1/blob/master/Sprint2_usecase/ufm_Sprint2.png)
 
 
 ### 2. Image Assessment	
 
-![](https://github.com/computationalmystic/RJI-group1/blob/master/Sprint1FinalUseCase/ia.jpg)
+![](https://github.com/computationalmystic/RJI-group1/blob/master/Sprint2_usecase/ia_Sprint2.png)
 
 
 ### 3. Photo Browser
-
+(**Not Yet Implemented**)
 ![](https://github.com/computationalmystic/RJI-group1/blob/master/UseCaseDiagrams/Photo%20Browser.png)
 
 
 ### 4. Train Model
-
+(**Not Yet Implemented**)
 ![](https://github.com/computationalmystic/RJI-group1/blob/master/UseCaseDiagrams/tm.png)
 
 
@@ -58,6 +58,7 @@ b.	**Laravel**
 ### To Do:
 - Implement submission progress bar for uploads
 - Assessment needs to be implemented using Symfony
+- Potentially customize assessment to different categories
 - Send notification to users once assessment complete
 - Optimize file system for large number of files
 - Need to add login interface and database queries
