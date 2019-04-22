@@ -12,7 +12,7 @@ use DB;
 
 class ImageUploadController extends Controller
 {
-	/**
+	    /**
      	* Show the form for creating a new resource.
      	*
      	* @return \Illuminate\Http\Response
@@ -33,40 +33,27 @@ class ImageUploadController extends Controller
     	{
         	$this->validate($request, [
                 'filename' => 'required',
-                'filename.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:10000'
+                'filename.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:30000'
         ]);
 
         if($request->hasfile('filename'))
         {
 
-		$result=DB::table('Images')
-			->orderBy('ImageID', 'desc')
-			->select('ImageID')
-			->limit(1)
-			->get();
 
+            foreach($request->file('filename') as $image)
+            {
 
-		$currentID = 1;
+                 $name=$image->getClientOriginalName();
+			     $path=public_path().'/images/';
 
-		if (!$result->isEmpty()) {
-			$result = json_decode($result,true);
-			$currentID = ++$result[0]['ImageID'];
-		}
+			     $currentID = DB::table('Images')->insertGetId(
+                     ["FilePath" => $name, 'UploadDate' => date('Y-m-d H:i:s'), 'UploaderID' => 'joebob22', 'AestheticScore' => 1.00, 'TechnicalScore' => 1.00]
+			     );
 
-		\Log::info($currentID);
+			     $image->move($path, str_pad($currentID, 10, '0', STR_PAD_LEFT).'-'.$name);
 
+		    }
 
-        	foreach($request->file('filename') as $image)
-            	{
-
-			$name=$image->getClientOriginalName();
-			$path=public_path().'/images/';
-
-			$image->move($path, str_pad($currentID, 10, '0', STR_PAD_LEFT).'-'.$name);
-
-			DB::insert("insert into Images (FilePath,UploadDate,UploaderID,AestheticScore,TechnicalScore) values ('$name', curdate(), 'joebob22', 1.00, 1.00)");
-			$currentID++;
-		}
          }
 
      	 return back()->with('success', 'Your images have been successfully uploaded.');
