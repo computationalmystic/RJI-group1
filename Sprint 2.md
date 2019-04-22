@@ -41,6 +41,9 @@
 ## Project Direction
 In the case of excessively large files being uploaded, our previous implementation would not be feasible as the user would be forced to sit at the browser for hours. As such, we have decided to implement the Laravel PHP framework to facilitate the development of this project. This framework allows for easy creation of a queue system so that file assessment may be done in parallel; using Beanstalkd as our queue, Supervisor as our listener, and Symfony to deploy workers using console commands, the assessment process should be further optimized. Additionally, we have added the ImageID from our mySQL database to the filename upon storage so that there will be no collisions when uploading files that share names with previously uploaded files.
 
+### Background Processing Diagram
+![](https://github.com/computationalmystic/RJI-group1/blob/master/backgroundprocessing.png)
+
 ### Current Implementation:
 
 a.	**Prototype**
