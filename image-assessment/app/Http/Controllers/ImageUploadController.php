@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\ImageUploadModel;
+use App\Image;
+
+use App\Jobs\AnalyzeImage;
 
 use File;
 
@@ -39,19 +41,21 @@ class ImageUploadController extends Controller
         if($request->hasfile('filename'))
         {
 
-
-            foreach($request->file('filename') as $image)
+            foreach($request->file('filename') as $file)
             {
 
-                 $name=$image->getClientOriginalName();
-			     $path=public_path().'/images/';
+                $name=$file->getClientOriginalName();
+		        $path=public_path().'/images/';
 
-			     $currentID = DB::table('Images')->insertGetId(
-                     ["FilePath" => $name, 'UploadDate' => date('Y-m-d H:i:s'), 'UploaderID' => 'joebob22', 'AestheticScore' => 1.00, 'TechnicalScore' => 1.00]
-			     );
+                $image = new Image;
+                $image->filename = $name;
+		$image->save();
+                
+                $currentID = $image->id;
 
-			     $image->move($path, str_pad($currentID, 10, '0', STR_PAD_LEFT).'-'.$name);
-
+			    $file->move($path, str_pad($currentID, 10, '0', STR_PAD_LEFT).'-'.$name);
+			     
+                AnalyzeImage::dispatch($image);
 		    }
 
          }
