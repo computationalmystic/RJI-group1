@@ -1,6 +1,6 @@
 CREATE TABLE `Images` (
-`ImageID` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
-`FilePath` varchar(60) NOT NULL UNIQUE,
+`ImageID` int(10) UNSIGNED NOT NULL UNIQUE AUTO_INCREMENT,
+`FilePath` varchar(60) NOT NULL,
 `UploadDate` date NOT NULL,
 `UploaderID` varchar(12) NOT NULL,
 `AestheticScore` float UNSIGNED NULL,
