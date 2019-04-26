@@ -24,7 +24,7 @@ class ImageUploadController extends Controller
     	public function create()
     	{
 
-        	return view('create');
+        	return view('upload');
     	}
 
     	/**
@@ -59,7 +59,7 @@ class ImageUploadController extends Controller
 			     
                 AnalyzeImage::dispatch($image);
 		    }
-            SendNotificationAfterScoring::dispatch();
+            //SendNotificationAfterScoring::dispatch($details);
          }
 
      	 return back()->with('success', 'Your images have been successfully uploaded.');

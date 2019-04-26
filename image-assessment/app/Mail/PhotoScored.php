@@ -28,6 +28,7 @@ class PhotoScored extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->from('postmaster@sandbox32a74136f3ea4c50a9726b45d6495be6.mailgun.org')
+                ->view('welcome');
     }
 }

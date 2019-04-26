@@ -7,19 +7,22 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
+use App\Mail\PhotoScored as PhotoScored;
+use Mail;
 
 class SendNotificationAfterScoring implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
+    protected $details;
 
     /**
      * Create a new job instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($details)
     {
-        //
+        $this->details = $details;
     }
 
     /**
@@ -29,7 +32,7 @@ class SendNotificationAfterScoring implements ShouldQueue
      */
     public function handle()
     {
-        Mail::to('gavinlikepi@gmail.com')
-            ->send('Well Down');
+		$email = new PhotoScored();
+        Mail::to($this->details['email'])->send($email);
     }
 }
