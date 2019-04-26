@@ -4,7 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\ImageUploadModel;
+use App\Image;
+
+use App\Jobs\AnalyzeImage;
+
+use App\Jobs\SendNotificationAfterScoring; 
 
 use File;
 
@@ -12,7 +16,7 @@ use DB;
 
 class ImageUploadController extends Controller
 {
-	/**
+	    /**
      	* Show the form for creating a new resource.
      	*
      	* @return \Illuminate\Http\Response
@@ -32,27 +36,34 @@ class ImageUploadController extends Controller
     	public function store(Request $request)
     	{
         	$this->validate($request, [
-                'filename' => 'required',
-                'filename.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:10000'
+                'file' => 'required',
+                'file.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:30000'
         ]);
 
-        if($request->hasfile('filename'))
+        if($request->hasfile('file'))
         {
-        	foreach($request->file('filename') as $image)
-            	{
 
-			$name=$image->getClientOriginalName();
-			$path=public_path().'/images/';
+            foreach($request->file('file') as $file)
+            {
 
+                $name=$file->getClientOriginalName();
+		        $path=public_path().'/images/';
 
-			if (!File::exists($path.$name)) {
-				$image->move($path, $name);
- 
-				DB::insert("insert into Images (FilePath,UploadDate,UploaderID,AestheticScore,TechnicalScore) values ('$name', curdate(), 'joebob22', 1.00, 1.00)");
-            		}
-		}
+                $image = new Image;
+                $image->filename = $name;
+		$image->save();
+                
+                $currentID = $image->id;
+
+			    $file->move($path, str_pad($currentID, 10, '0', STR_PAD_LEFT).'-'.$name);
+			     
+                AnalyzeImage::dispatch($image);
+		    }
+            SendNotificationAfterScoring::dispatch();
          }
+
      	 return back()->with('success', 'Your images have been successfully uploaded.');
     }
 
 }
+

@@ -10,13 +10,20 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () {
-    return view('create');
-});
-Route::get('form','ImageUploadController@create');
-Route::post('form','ImageUploadController@store');
-
 
 Auth::routes();
 
+Route::get('/', function () {
+    return view('create');
+})->middleware('auth');
+
+Route::get('form','ImageUploadController@create');
+Route::post('form','ImageUploadController@store');
+
+Route::get('/welcome', function () {
+    return view('welcome');
+})->middleware('auth');;
+
+
+Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
