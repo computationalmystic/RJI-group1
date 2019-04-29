@@ -13,23 +13,18 @@
 
 Auth::routes();
 
-Route::get('/', function () {
+Route::get('/upload', function () {
     return view('upload');
 })->middleware('auth');
 
 Route::get('form','ImageUploadController@create');
 Route::post('form','ImageUploadController@store');
 
-//Route::get('/welcome', function () {
-//    return view('welcome');
-//})->middleware('auth');;
-
-Route::get('/welcome', function(){
-	$details['email'] = 'gavinlikepi@gmail.com';
-    dispatch(new App\Jobs\SendNotificationAfterScoring($details));
-    dd('done');
-});
+Route::get('/welcome', function () {
+    return view('welcome');
+})->middleware('auth');
 
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
+

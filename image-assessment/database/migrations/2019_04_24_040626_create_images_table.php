@@ -19,6 +19,8 @@ class CreateImagesTable extends Migration
             $table->timestamps();
             $table->float('aesthetic')->nullable();
             $table->float('technical')->nullable();
+			$table->bigInteger('userID');
+			$table->bigInteger('submissionID');
          });
     }
 

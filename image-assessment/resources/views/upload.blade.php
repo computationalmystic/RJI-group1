@@ -56,7 +56,8 @@
 <script type="text/javascript">
     var dropzone = new Dropzone('#demo-upload', {
       uploadMultiple: true,
-      parallelUploads: 5,
+      parallelUploads: 100000,
+      timeout: 0,
       thumbnailHeight: 120,
       thumbnailWidth: 120,
       filesizeBase: 1000,
@@ -75,7 +76,6 @@
           setTimeout(function() { file.previewElement.classList.add("dz-image-preview"); }, 1);
         }
       }
-
     });    
 </script>      
 </body>

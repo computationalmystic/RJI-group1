@@ -34,12 +34,20 @@ class AnalyzeImage implements ShouldQueue
     {
         $image = $this->image;
         //$filename = escapeshellarg($this->filename);
-	$filepath = str_pad($image->id, 10, '0', STR_PAD_LEFT).'-'.$image->filename;
+		$filepath = str_pad($image->id, 10, '0', STR_PAD_LEFT).'-'.$image->filename;
 
-        $image->aesthetic = exec("bash /var/www/html/getScoreAesthetic.sh $filepath");
-        $image->technical = exec("bash /var/www/html/getScoreTechnical.sh $filepath");
+        $image->aesthetic = exec("bash /var/www/html/image-assessment/app/Scripts/getScoreAesthetic.sh $filepath");
+        $image->technical = exec("bash /var/www/html/image-assessment/app/Scripts/getScoreTechnical.sh $filepath");
+		
+        //$aesthetic = exec("bash /var/www/html/image-assessment/app/Scripts/getScoreAesthetic.sh $filepath");
+        //$technical = exec("bash /var/www/html/image-assessment/app/Scripts/getScoreTechnical.sh $filepath");
+		//Log::info($aesthetic);
+		//Log::info($technical);
+		
+		//$image->aesthetic = 6.9;
+		//$image->technical = 6.9;
+
         $image->save();
-
-
+		
     }
 }

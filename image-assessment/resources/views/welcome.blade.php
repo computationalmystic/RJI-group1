@@ -37,6 +37,11 @@
     </head>
     <body>
         <div class="container">
+		    <div class="panel-body">
+				Your user id is: {{ $user->id }}
+				Your name is: {{ $user->name }}
+				Your email is: {{ $user->email }}
+			</div>
             <div class="content">
                 <div class="title">Hello World</div>
             </div>
