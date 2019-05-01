@@ -1,8 +1,9 @@
 /root/swaks --auth \
 	--server smtp.mailgun.org:587 \
-	--au postmaster@sandbox32a74136f3ea4c50a9726b45d6495be6.mailgun.org \
-	--ap e32e047e9b5140dff1ced04ab730fb93-dc5f81da-39bed3e1 \
-	--from postmaster@sandbox32a74136f3ea4c50a9726b45d6495be6.mailgun.org \
+	--au postmaster@mg.rjimizzou.info \
+	--ap 906bd5667341bfa3c02a12560ec851e0-7bce17e5-1ecaa3c6 \
+	--from noreply@rjimizzou.info \
 	--to $1 \
 	--h-Subject: 'Photos Scored' \
-	--body 'The useID is '$2.' And the submissionID is '$3
+	--body 'Your photos have been analyzed! Visit this link to download the scored submission: https://rjimizzou.info/download/'$2'/'$3
+	

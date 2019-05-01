@@ -15,8 +15,8 @@ return [
     */
 
     'mailgun' => [
-        'domain' => env('#################################################'),
-        'secret' => env('##################################################'),
+        'domain' => env('########'),
+        'secret' => env('########'),
         'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
     ],
 

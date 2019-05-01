@@ -70,5 +70,6 @@ class ZipSubmission implements ShouldQueue
             Storage::move("/unscored/$filepath", "/users/$file->userID/$file->submissionID/toss/$file->filename");
         }    
         
+        exec("bash /var/www/html/image-assessment/app/Scripts/ZipSubmissionFolder.sh $userID $submissionID");
     }
 }

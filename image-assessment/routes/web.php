@@ -24,6 +24,15 @@ Route::get('/welcome', function () {
     return view('welcome');
 })->middleware('auth');
 
+Route::get('/scores/{userid}/{submissionid}', function ($userid, $submissionid) {
+    return View::make('/scores')->with('userid', $userid);
+})->middleware('auth');
+
+Route::get('/download', function () {
+    return view('download');
+})->middleware('auth');
+
+Route::get( '/download/{userID}/{submissionID}', 'DownloadController@getDownload')->middleware('auth');
 
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
