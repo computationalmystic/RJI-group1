@@ -1,1 +1,5 @@
+Place a short 1-2 paragraph statement in your repository root, called "our-classifier.md" that explains:
+What image classifier technology you used for your projects
+Whether or not you have started to build classifiers off of the pictures from Ed McCain or if you are still using the default example classifiers. Explain the advantages and limitations of your choice.
 
+For our application we will be using the idealo image classifier, which outputs both an aesthetic and technical score for each image. Depending on our time constraints we will begin to implement a method to train the model; however, this will be rather time consuming as we will need to collect a large amount of data in the form of a human score for each image. The major drawback with our current implementation is the inability to tailor the assessmnet metric to certain genres of photography, which will hinder the assessment of smaller collections such as albums and result in less accurate scores. As such, our idea is to have two scoring modes: absolute and relative, which 
