@@ -45,13 +45,14 @@ Convert text files with DOS or Mac line endings to Unix line endings
  
  Step : create route
  
- Route::get('/upload', function () {
+```php
+ 
+Route::get('/upload', function () {
     return view('upload');
 })->middleware('auth');
 
 Route::get('form','ImageUploadController@create');
 Route::post('form','ImageUploadController@store');
-
 
 Route::get('/scores/{userid}/{submissionid}', function ($userid, $submissionid) {
     return View::make('/scores')->with('userid', $userid);
@@ -62,6 +63,8 @@ Route::get('/download', function () {
 })->middleware('auth');
 
 Route::get( '/download/{userID}/{submissionID}', 'DownloadController@getDownload')->middleware('auth');
+
+```
 
 you can use the laravel build-in Login/Register system and pages
 you need to login first before doing any other activity after adding  ->middleware('auth') at the end of each record
