@@ -161,7 +161,9 @@ Follow this tutorial https://www.digitalocean.com/community/tutorials/how-to-sec
 
 Foreign keys: 
 Images - Submission ID references Jobs JobID and UserID references Users UserID
+
 Password Resets - Email references Users Email
+
 Failed Jobs - ID references Jobs JobID
 
 
