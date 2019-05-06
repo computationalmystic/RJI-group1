@@ -154,3 +154,14 @@ We need to login first before doing any other activity after adding  ```->middle
 Set up a TLS/SSL certificate
 
 Follow this tutorial https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04 
+
+### Entity Relationship Diagram:
+
+![](https://github.com/computationalmystic/RJI-group1/blob/master/UseCaseDiagrams/Sprint%203%20ERD.png)
+
+Foreign keys: 
+Images - Submission ID references Jobs JobID and UserID references Users UserID
+Password Resets - Email references Users Email
+Failed Jobs - ID references Jobs JobID
+
+
