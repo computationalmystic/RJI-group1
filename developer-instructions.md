@@ -1,6 +1,23 @@
-### Step 1: Install Apache, Mysql, Php and some php packages
+### Step 1: Install Apache, Mysql, PHP and some PHP packages
 
 They can host basic website functions.
+
+```shell
+sudo apt update
+
+//install Apache2
+sudo apt install apache2
+
+//install mysql
+sudo apt-get install mysql-server
+mysql_secure_installation
+
+//install PHP
+sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+
+sudo systemctl restart apache2
+```
+
  
 ### Step 2: Update php.ini file
 
