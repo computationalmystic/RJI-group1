@@ -112,6 +112,14 @@ We might need to execute ```dos2unix scriptname``` after writing scripts.
 
 Convert text files with DOS or Mac line endings to Unix line endings.
 
+```shell
+dos2unix getScoreTechnical.sh
+dos2unix getScoreAesthetic.sh
+dos2unix BuildSubmissionFolder.sh
+dos2unix ZipSubmissionFolder.sh
+dos2unix SendNotificationEmail.sh
+```
+
 ### Step 10: Add three jobs to laravel which execute specific jobs
 
 ```shell
@@ -123,6 +131,23 @@ php artisan make:job ZipSubmission                   //Zip images
 ### Step 11: Install supervior and configure a queue system in Laravel
 
 Integrade them together, we can parallel processing images.
+
+```shell
+sudo apt install supervisor
+```
+
+A simple configuration for the script, saved at /etc/supervisor/conf.d/laravel-worker.conf, would look like so:
+```shell
+[program:laravel-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/html/image-assessment/artisan queue:work --tries=3
+autostart=true
+autorestart=true
+user=root
+numprocs=5
+redirect_stderr=true
+stdout_logfile=/var/www/html/image-assessment/storage/logs/worker.log
+```
 
 ### Step 12: Create main website page
 
