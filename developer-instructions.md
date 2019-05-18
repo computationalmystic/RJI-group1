@@ -44,7 +44,11 @@ php artisan make:controller ImageUploadController
 
 ### Step 5:Setup a MySQL database
  
-Setup the database in the ```.env``` file.
+Setup the database in the ```/etc/mysql/mysql.conf.d/mysqld.cnf``` file.
+
+```shell
+bind-address            = 0.0.0.0
+```
  
 ### Step 6: Compose a model and migration file
 
