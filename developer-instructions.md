@@ -136,7 +136,7 @@ Integrade them together, we can parallel processing images.
 sudo apt install supervisor
 ```
 
-A simple configuration for the script, saved at /etc/supervisor/conf.d/laravel-worker.conf, would look like so:
+A simple configuration for the script, saved at ```/etc/supervisor/conf.d/laravel-worker.conf```, would look like so:
 ```shell
 [program:laravel-worker]
 process_name=%(program_name)s_%(process_num)02d
@@ -152,15 +152,23 @@ stdout_logfile=/var/www/html/image-assessment/storage/logs/worker.log
 ### Step 12: Create main website page
 
 https://rjimizzou.info
+
  
 ### Step 13: Create two view files
 
 - upload.blade.php
 - download.blade.php
 
+```shell
+php artisan make:view upload.blade.php
+php artisan make:view download.blade.php
+```
+
 ### Step 14: Configure Dropzone
 
 Provide a friendly environment for user to upload images
+
+Follow this directions https://www.dropzonejs.com/#usage
 
 ### Step 15: Create route
  
