@@ -28,7 +28,9 @@ After that we can upload large file via php.
 Follow the directions in the README.md at https://github.com/idealo/image-quality-assessment. 
 
 Install docker, python environment, and build docker image. Then we can get predictions from aesthetic or technical model by running command line.
- 
+
+Run ```sudo docker run -d -p 8500:8500 tfs_nima``` after restarting
+
 ### Step 4: Download Laravel Project and create controller 
 
 Those two controllers are working for uploading and downloading images.
